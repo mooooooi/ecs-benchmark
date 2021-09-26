@@ -4,29 +4,30 @@ import { fileURLToPath } from "node:url";
 import { Worker } from "node:worker_threads";
 
 const LIBRARIES = [
-  "becsy",
-  "bitecs",
-  "ecsy",
-  "flock-ecs",
-  "geotic",
-  "goodluck",
-  "harmony-ecs",
-  "javelin-ecs",
-  "makr",
-  "perform-ecs",
-  "picoes",
-  "tiny-ecs",
-  "uecs",
-  "wolf-ecs",
+  // "becsy",
+    // "bitecs",
+    "ecsy",
+  // "flock-ecs",
+  // "geotic",
+  // "goodluck",
+    "harmony-ecs",
+  // "javelin-ecs",
+  // "makr",
+  // "perform-ecs",
+  // "picoes",
+  // "tiny-ecs",
+  // "uecs",
+    "wolf-ecs",
+  "netcode-ecs"
 ];
 
 const BENCHMARKS = {
   packed_1: 5_000,
   packed_5: 1_000,
-  simple_iter: 1_000,
-  frag_iter: 100,
-  entity_cycle: 1_000,
-  add_remove: 1_000,
+  // simple_iter: 1_000,
+  // frag_iter: 100,
+  // entity_cycle: 1_000,
+  // add_remove: 1_000,
 };
 
 let libraries = [];
